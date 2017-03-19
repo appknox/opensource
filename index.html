@@ -2,11 +2,16 @@
 layout: default
 ---
 
-<ul>
-    {% for repo in site.data.repos %}
-        <li>
-            <a href="https://github.com/appknox/{{ repo.name }}"><h4>{{ repo.name }}</h4></a>
-            <p>{{ repo.description }}</p>
-        </li>
-    {% endfor %}
-</ul>
+<h1 class="main-heading"> Appknox Open Source Projects </h1>
+ <div class="wrap">
+  {% for repo in site.data.repos %}
+    <a href="https://github.com/appknox/{{ repo.name }}">
+      <div class="tile">
+      <div class="text">
+        <h1>{{ repo.name }}</h1>
+        <h3 class="animate-text">{{ repo.description }}</h3>
+      </div>
+    </div>
+  </a>
+  {% endfor %}
+</div>
