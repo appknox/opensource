@@ -1,5 +1,7 @@
 - name: afe
   description: Android Framework for Exploitation
+  language: devicon-python-plain colored
 
 - name: androguard
   description: Python 3 fork of Androguard
+  language: devicon-python-plain colored
