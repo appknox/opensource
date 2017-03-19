@@ -1,7 +1,7 @@
 - name: afe
-  description: Android Framework for Exploitation
+  description: Android Framework for Exploitation, is a framework for exploiting android based devices
   language: devicon-python-plain colored
 
 - name: androguard
-  description: Python 3 fork of Androguard
+  description: Python 3 fork of popular Androguard library
   language: devicon-python-plain colored
