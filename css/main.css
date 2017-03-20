@@ -3,9 +3,11 @@ body {
 }
 
 .wrap {
-  margin: 100px auto 100px auto;
-  padding-left: 40px
+  margin: 100px auto 100px auto!important;
+}
 
+.align-centre {
+  text-align: center;
 }
 
 .main-heading {

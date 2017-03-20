@@ -2,10 +2,12 @@
 layout: default
 ---
 
-<h1 class="main-heading"> Appknox Open Source Projects </h1>
+<div>
+  <h1 class="main-heading"> Appknox Open Source Projects </h1>
+</div>
 <div class="row wrap">
   {% for repo in site.data.repos %}
-    <div class="col-lg-3">
+    <div class="col-lg-3 col-md-4 col-sm-6 align-centre">
       <a href="https://github.com/appknox/{{ repo.name }}">
         <div class="tile">
           <div class="text">
