@@ -52,3 +52,8 @@
   description: A stupidly simple socket server
   class: devicon-javascript-plain colored
   language: Javascript
+
+- name: irene
+  description: I AM SHER LOCKED. Dashboard for Appknox & Devknox Users
+  class: devicon-coffeescript-plain
+  language: Coffeescript
