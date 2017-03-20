@@ -60,5 +60,5 @@
 
 - name: imager
   description: Image processing pipeline to detect form fields
-  class: devicon-coffeescript-plain
+  class: devicon-python-plain colored
   language: Python
