@@ -2,11 +2,27 @@
 layout: default
 ---
 
-<ul>
+<div class="container">
     {% for repo in site.data.repos %}
-        <li>
-            <a href="https://github.com/appknox/{{ repo.name }}"><h4>{{ repo.name }}</h4></a>
-            <p>{{ repo.description }}</p>
-        </li>
+        {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+        {% if thecycle == 'odd' %}
+        <div class="row">
+            <!-- odd -->
+            <div class="six columns">
+                <a href="https://github.com/appknox/{{ repo.name }}"><h4>{{ repo.name }}</h4></a>
+                <p>{{ repo.description }}</p>
+            </div>
+            {% if forloop.length == forloop.index %}
+            <!-- last -->
+        </div>
+            {% endif %}
+        {% else %}
+            <!-- even -->
+            <div class="six columns">
+                <a href="https://github.com/appknox/{{ repo.name }}"><h4>{{ repo.name }}</h4></a>
+                <p>{{ repo.description }}</p>
+            </div>
+        </div>
+        {% endif %}
     {% endfor %}
-</ul>
+</div>

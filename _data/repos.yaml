@@ -3,3 +3,30 @@
 
 - name: androguard
   description: Python 3 fork of Androguard
+
+- name: appknox-python
+  description: CLI tool & Python wrapper for Appknox's REST API
+
+- name: bohemia
+  description: Yet another CSS framework. Baked with goodness of SASS & Bourbon, a Flexbox-based grid.
+
+- name: cleancode
+  description: Intellij IDEA plugin which checks if source code conforms to clean code guidelines
+
+- name: droid-vnc-server
+  description: VNC server for Android
+
+- name: frida-runner
+  description: A stupid CLI script to run Frida on iOS or Android
+
+- name: minivnc
+  description: A teeny tiny VNC proxy
+
+- name: pyaxmlparser
+  description: Parses Android XML file and get Application Name without using big Androguard
+
+- name: statboard
+  description: Statistics/Metric Dashboard for your product
+
+- name: stupid-sockets
+  description: A stupidly simple socket server
