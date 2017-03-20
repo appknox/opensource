@@ -3,11 +3,9 @@ body {
 }
 
 .wrap {
-    margin: 50px auto 0 auto;
-    width: 100%;
-    display: flex;
-    align-items: space-around;
-    max-width: 1200px;
+  margin: 100px auto 100px auto;
+  padding-left: 40px
+
 }
 
 .main-heading {
@@ -26,8 +24,8 @@ body {
 }
 
 .tile {
-    width: 260px;
-    height: 260px;
+    width: 270px;
+    height: 270px;
     margin: 10px;
     background-color: #011627;
     display: inline-block;
@@ -118,11 +116,4 @@ body {
 
 .dots span:nth-child(3) {
     transition-delay: 0.15s;
-}
-
-@media (max-width: 1000px) {
-    .wrap {
-        flex-direction: column;
-        width: 400px;
-    }
 }

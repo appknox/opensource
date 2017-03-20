@@ -1,7 +1,54 @@
 - name: afe
   description: Android Framework for Exploitation, is a framework for exploiting android based devices
-  language: devicon-python-plain colored
+  class: devicon-python-plain colored
+  language: Python
 
 - name: androguard
   description: Python 3 fork of popular Androguard library
-  language: devicon-python-plain colored
+  class: devicon-python-plain colored
+  language: Python
+
+- name: appknox-python
+  description: CLI tool & Python wrapper for Appknox's REST API
+  class: devicon-python-plain colored
+  language: Python
+
+- name: bohemia
+  description: Yet another CSS framework. Baked with goodness of SASS & Bourbon, a Flexbox-based grid
+  class: devicon-css3-plain colored
+  language: CSS
+
+- name: cleancode
+  description: Intellij IDEA plugin which checks if source code conforms to clean code guidelines
+  class: devicon-java-plain colored
+  language: Java
+
+- name: droid-vnc-server
+  description: VNC server for Android
+  class: devicon-c-plain colored
+  language: C
+
+- name: frida-runner
+  description: A Stupid CLI script to run Frida on iOS or Android
+  class: devicon-python-plain colored
+  language: Python
+
+- name: minivnc
+  description: Minivnc - A teeny tiny VNC proxy
+  class: devicon-javascript-plain colored
+  language: Javascript
+
+- name: pyaxmlparser
+  description: Parses Android XML file and get Application Name without using big Androguard
+  class: devicon-python-plain colored
+  language: Python
+
+- name: statboard
+  description: Statistics/Metric Dashboard for your product
+  class: devicon-python-plain colored
+  language: Python
+
+- name: stupid-sockets
+  description: A stupidly simple socket server
+  class: devicon-javascript-plain colored
+  language: Javascript

@@ -3,16 +3,18 @@ layout: default
 ---
 
 <h1 class="main-heading"> Appknox Open Source Projects </h1>
- <div class="wrap">
+<div class="row wrap">
   {% for repo in site.data.repos %}
-    <a href="https://github.com/appknox/{{ repo.name }}">
-      <div class="tile">
-      <div class="text">
-        <h1>{{ repo.name }}</h1>
-        <i class="icon-class {{repo.language}}"></i> Python
-        <h3 class="animate-text">{{ repo.description }}</h3>
-      </div>
+    <div class="col-lg-3">
+      <a href="https://github.com/appknox/{{ repo.name }}">
+        <div class="tile">
+          <div class="text">
+            <h1>{{ repo.name }}</h1>
+            <i class="icon-class {{repo.class}}"></i> {{repo.language}}
+            <h3 class="animate-text">{{ repo.description }}</h3>
+          </div>
+        </div>
+      </a>
     </div>
-  </a>
   {% endfor %}
 </div>
