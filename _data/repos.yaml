@@ -57,3 +57,8 @@
   description: I AM SHER LOCKED. Dashboard for Appknox & Devknox Users
   class: devicon-coffeescript-plain
   language: Coffeescript
+
+- name: imager
+  description: Image processing pipeline to detect form fields
+  class: devicon-coffeescript-plain
+  language: Python
