@@ -55,7 +55,7 @@
 
 - name: irene
   description: I AM SHER LOCKED. Dashboard for Appknox & Devknox Users
-  class: devicon-coffeescript-plain colored
+  class: devicon-coffeescript-plain
   language: Coffeescript
 
 - name: imager
