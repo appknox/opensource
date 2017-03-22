@@ -1,6 +1,6 @@
 title: Appknox Open Source
 email: engineering@appknox.com
-description: Lorem Ipsum
+description: Open source projects and contributions by Appknox
 baseurl: ""
-url: "https://appknox.github.io"
+url: "https://appknox.org"
 markdown: kramdown

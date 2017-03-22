@@ -1,6 +1,8 @@
 # opensource
 
-A static portal which outlines the open source offerings by Appknox
+A static portal which outlines our open source contributions and projects
+
+[appknox.org](https://appknox.org)
 
 [appknox.github.io/opensource](https://appknox.github.io/opensource)
 
