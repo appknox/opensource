@@ -1,64 +1,51 @@
 - name: afe
   description: Android Framework for Exploitation, is a framework for exploiting android based devices
-  class: devicon-python-plain colored
-  language: Python
+  language: python
 
 - name: androguard
   description: Python 3 fork of popular Androguard library
-  class: devicon-python-plain colored
-  language: Python
+  language: python
 
 - name: appknox-python
   description: CLI tool & Python wrapper for Appknox's REST API
-  class: devicon-python-plain colored
-  language: Python
+  language: python
 
 - name: bohemia
   description: Yet another CSS framework. Baked with goodness of SASS & Bourbon, a Flexbox-based grid
-  class: devicon-css3-plain colored
-  language: CSS
+  language: css3
 
 - name: cleancode
   description: Intellij IDEA plugin which checks if source code conforms to clean code guidelines
-  class: devicon-java-plain colored
-  language: Java
+  language: java
 
 - name: droid-vnc-server
   description: VNC server for Android
-  class: devicon-c-plain colored
-  language: C
+  language: c
 
 - name: frida-runner
   description: A Stupid CLI script to run Frida on iOS or Android
-  class: devicon-python-plain colored
-  language: Python
-
-- name: minivnc
-  description: Minivnc - A teeny tiny VNC proxy
-  class: devicon-javascript-plain colored
-  language: Javascript
-
-- name: pyaxmlparser
-  description: Parses Android XML file and get Application Name without using big Androguard
-  class: devicon-python-plain colored
-  language: Python
-
-- name: statboard
-  description: Statistics/Metric Dashboard for your product
-  class: devicon-python-plain colored
-  language: Python
-
-- name: stupid-sockets
-  description: A stupidly simple socket server
-  class: devicon-javascript-plain colored
-  language: Javascript
+  language: python
 
 - name: irene
   description: I AM SHER LOCKED. Dashboard for Appknox & Devknox Users
-  class: devicon-coffeescript-plain
-  language: Coffeescript
+  language: coffeescript
 
 - name: imager
   description: Image processing pipeline to detect form fields
-  class: devicon-python-plain colored
-  language: Python
+  language: python
+
+- name: minivnc
+  description: Minivnc - A teeny tiny VNC proxy
+  language: javascript
+
+- name: pyaxmlparser
+  description: Parses Android XML file and get Application Name without using big Androguard
+  language: python
+
+- name: statboard
+  description: Statistics/Metric Dashboard for your product
+  language: python
+
+- name: stupid-sockets
+  description: A stupidly simple socket server
+  language: javascript

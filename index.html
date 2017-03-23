@@ -2,9 +2,8 @@
 layout: default
 ---
 
-<div>
-  <h1 class="main-heading"> Appknox Open Source Projects </h1>
-</div>
+<h1 class="main-heading">Appknox Open Source</h1>
+
 <div class="row wrap">
   {% for repo in site.data.repos %}
     <div class="col-lg-3 col-md-4 col-sm-6 align-centre">
@@ -12,7 +11,8 @@ layout: default
         <div class="tile">
           <div class="text">
             <h1>{{ repo.name }}</h1>
-            <i class="icon-class {{repo.class}}"></i> {{repo.language}}
+            <div class="icon-class devicon-{{ repo.language }}-plain"></div>
+            <h5>{{ repo.language | upcase }}</h5>
             <h3 class="animate-text">{{ repo.description }}</h3>
           </div>
         </div>
