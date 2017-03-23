@@ -1,21 +1,21 @@
-- name: afe
-  description: Android Framework for Exploitation, is a framework for exploiting android based devices
+- name: AFE
+  description: A framework for exploiting android based devices
   language: python
 
 - name: androguard
-  description: Python 3 fork of popular Androguard library
+  description: Python 3 fork of the Androguard library
   language: python
 
 - name: appknox-python
-  description: CLI tool & Python wrapper for Appknox's REST API
+  description: CLI tool & Python wrapper for the Appknox API
   language: python
 
 - name: bohemia
-  description: Yet another CSS framework. Baked with goodness of SASS & Bourbon, a Flexbox-based grid
+  description: A Flexbox-based grid baked with goodness of SASS and Bourbon
   language: css3
 
 - name: cleancode
-  description: Intellij IDEA plugin which checks if source code conforms to clean code guidelines
+  description: IntelliJ IDEA plugin to conform your project to clean code guidelines
   language: java
 
 - name: droid-vnc-server
@@ -23,29 +23,45 @@
   language: c
 
 - name: frida-runner
-  description: A Stupid CLI script to run Frida on iOS or Android
+  description: CLI to run Frida on iOS or Android
+  language: python
+
+- name: HamlPy3
+  description: Python 3 fork of HamlPy
+  language: python
+
+- name: hudson
+  description: Dashboard for our sales team. Not your housekeeper
   language: python
 
 - name: irene
-  description: I AM SHER LOCKED. Dashboard for Appknox & Devknox Users
+  description: Dashboard for Appknox & Devknox
   language: coffeescript
 
 - name: imager
   description: Image processing pipeline to detect form fields
   language: python
 
+- name: m2crypto
+  description: Python 3 fork of m2crypto
+  language: python
+
 - name: minivnc
-  description: Minivnc - A teeny tiny VNC proxy
+  description: A teeny tiny VNC proxy
   language: javascript
 
 - name: pyaxmlparser
-  description: Parses Android XML file and get Application Name without using big Androguard
+  description: Parser for Android XML files without the bloat of Androguard
   language: python
 
 - name: statboard
-  description: Statistics/Metric Dashboard for your product
+  description: A statistics and metrics dashboard
   language: python
 
 - name: stupid-sockets
-  description: A stupidly simple socket server
+  description: A simple socket server
   language: javascript
+
+- name: vulnerable-application
+  description: A vulnerable Android test application
+  language: java
