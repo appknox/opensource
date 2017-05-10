@@ -10,6 +10,10 @@
   description: CLI tool & Python wrapper for the Appknox API
   language: python
 
+- name: attackapi
+  description: CLI tool to find security vulnerabilities in an API.
+  language: python
+
 - name: bohemia
   description: A Flexbox-based grid baked with goodness of SASS and Bourbon
   language: css3
