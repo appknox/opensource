@@ -3,7 +3,7 @@ body {
 }
 
 .wrap {
-  margin: 100px auto 100px auto!important;
+  margin: 20px auto 50px auto!important;
 }
 
 .align-centre {
@@ -11,18 +11,26 @@ body {
 }
 
 .main-heading {
+  margin-top: 20px;
   margin-left: 30px;
   font-family: 'Roboto', sans-serif;
-  margin-bottom: -30px
+}
+
+.horizontal-line {
+  border-top: 2px solid #cdcdcd;
 }
 
 .navbar {
-  border-bottom: 1px solid #cdcdcd!important;
+  border-bottom: 2px solid #cdcdcd!important;
   border-radius: 0px !important
 }
 
 .navbar-brand {
   height: 62px!important
+}
+
+.repo-holder {
+  margin: 50px
 }
 
 .tile {
@@ -90,7 +98,6 @@ body {
 }
 
 .tile:hover {
-    /*   background-color:#99aeff; */
     box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.64);
     transform: scale(1.05);
 }
